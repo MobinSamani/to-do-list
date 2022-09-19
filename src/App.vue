@@ -7,15 +7,15 @@
         <a class="font-bold" href="https://MobinSamani.com" target="_blank">MobinSamani.com</a>
       </div>
 
-      <div class="bg-white shadow rounded-lg p-8">
-        <to-do-list/>
+      <div class="bg-white shadow rounded-lg">
+        <to-do-list />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ToDoList from "./components/to-do-list.vue";
+import ToDoList from "./components/to-do-list/index.vue";
 
 export default {
   name: "App",

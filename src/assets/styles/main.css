@@ -1,1 +1,22 @@
 @import "./tailwind.css";
+
+/* Custom Scrollbar  */
+/* Works on Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #e5e7eb transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
